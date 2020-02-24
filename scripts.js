@@ -1,4 +1,4 @@
-function akanName() {
+function submit() {
   var dd = parseInt(document.getElementById("name").value);
   var mm = parseInt(document.getElementById("Email").value);
   var yy = parseInt(document.getElementById("message").value);
