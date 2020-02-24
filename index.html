@@ -7,7 +7,6 @@
     <title>Delani Studio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="scripts.js"></script>
 </head>
 <body>
@@ -40,9 +39,34 @@
             <div class=jumbotron style="background-color: white;">
               <h3>WHAT WE DO</h3><br>
               <div class="row"> 
+                  <div id="toggle">
                 <div class="column"><img src="/home/lawrence/documents/ip3/assets/services_icons/design_icon.png"></div>
+                  </div>
+                  <h3>DESIGN</h3>
+                  <div id="text-design">            
+                    <p>Our design practice offers a full range of services including brand strategy,
+                        interaction and
+                        visual
+                        design and user experience testing.
+                        Throughout your project, our designers create and implement visual design and workflows, solicit
+                        user feedback and work with you to make sure what gets built is what is needed.</p>
+                  </div>
+                  <div id="toggle2">
                 <div class="column"><img src="/home/lawrence/documents/ip3/assets/services_icons/dev_icon.png"></div>
-                <div class="column"><img src="/home/lawrence/documents/ip3/assets/services_icons/product_icon.png"></div>  
+                  </div>
+                  <h3>DEVELOPMENT</h3>
+                <p id="text-development">All engineers are fluent in the latest enterprise, mobile and web development
+                    technologies.
+                    They collaborate with your team to write, and improve code on a daily basis, using proven
+                    practices such as test-driven development and pair programming.</p>
+                  <div id="toggle3">
+                <div class="column"><img src="/home/lawrence/documents/ip3/assets/services_icons/product_icon.png"></div> 
+                </div> 
+                <h3>PRODUCT MANAGEMENT</h3>
+                <p id="text-management"> Planning and development is iterative. Because we are constantly coding and testing, the
+                    products we
+                    build are always ready to go live.
+                    This iterative process allows for changes as business requirements evolve.</p>
               </div>
               </div>
               <div class="jumbotron" style="background-color: white;">
@@ -60,7 +84,7 @@
                     <div class="column"><img src="/home/lawrence/documents/ip3/assets/portfolio/work8.jpg"></div>
                 </div>
               </div>
-            <div class="row" col-md-5>
+              <div id="contacts">
             <div class="jumbotron" style="background-image: url(/home/lawrence/documents/ip3/assets/backgrounds/c_image.jpg);">
              <h2>CONTACT US</h2>
              <form id="myForm" class="form">
@@ -74,7 +98,23 @@
                 <fieldset>
                     <label>Your message here</label><br>
                     <input type="text" id="message"   placeholder="Message">
-                <fieldset>
-              </div>                   
+                    <input type="submit" id="submit" value="submit">
+                <fieldset>                
+            </div>
+            </div>
+            <div id="social-media" class="row flex-column align-items-center mt-4">
+                <div class="col-md-6 row justify-content-around">
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/twitter.png" alt="twitter">
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/dribble.png" alt="dribble">
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/facebook.png" alt="facebook">
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/g_plus.png" alt="g_plus">
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/skype.png" alt="skype">
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/stumble_upon.png" alt="stumble_upon" />
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/behance.png" alt="behance" />
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/pinterest.png" alt="pinterest">
+                    <img src="/home/lawrence/documents/ip3/assets/social_icons/flickr.png" alt="flickr">
+                </div>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="scripts.js"></script>
 </body>
 </html>
