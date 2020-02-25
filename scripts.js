@@ -10,7 +10,8 @@ function submit() {
 });
 $(document).ready(function() {
   $("#toggle").click(function() {
-    $("#text-design").toggle();
-    $("#text-design").toggle();
+    $("#design").hide();
+    $("#toggle").show();
   });
-});
+}
+);

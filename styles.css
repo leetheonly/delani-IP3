@@ -3,21 +3,22 @@
     text-align: center;
     font-family: sans-serif;
     text-decoration-color: beige;
-    width: 100%;
-    align-content: center;
+    width: ;
+    align-items: center;
 }
 h2{
     color: beige;
+
 }
-.column{
-    width: 300px;
-}
-#text-design {
+#design {
     display: none;
 }
-#text-development {
+#development {
     display: none;
 }
-#text-management {
+#management {
     display: none;
+}
+.icon{
+    align-items: center;
 }
