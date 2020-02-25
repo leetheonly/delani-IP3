@@ -8,3 +8,9 @@ function submit() {
     $("p").show;
   });
 });
+$(document).ready(function() {
+  $("#toggle").click(function() {
+    $("#text-design").toggle();
+    $("#text-design").toggle();
+  });
+});

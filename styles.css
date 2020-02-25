@@ -12,3 +12,12 @@ h2{
 .column{
     width: 300px;
 }
+#text-design {
+    display: none;
+}
+#text-development {
+    display: none;
+}
+#text-management {
+    display: none;
+}
