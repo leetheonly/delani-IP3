@@ -50,5 +50,5 @@ var email = document.getElementById("email").value;
 var message = document.getElementById("message").value;
 if (name !== "" && email !== "" && message !== "");
   alert("Hey " +   name + " " + "thank you for contacting us.Delani Studio has received your message");
-event.preventDefault();
+event.prev();
 }
