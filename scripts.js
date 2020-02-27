@@ -3,11 +3,6 @@ function submit() {
   var mm = parseInt(document.getElementById("Email").value);
   var yy = parseInt(document.getElementById("message").value);
 }
-(document).readyState(function() {
-  $("img").click(function() {
-    $("p").show;
-  });
-});
 $(document).ready(function() {
   $("#toggle").click(function() {
     $("#design").hide();
@@ -15,3 +10,10 @@ $(document).ready(function() {
   });
 }
 );
+function myForm(){
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  if (name !=="" && email !== "" && message !=="");
+  alert("Thank you,"+ name+ ""+ "We have received your message");
+}
