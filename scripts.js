@@ -44,11 +44,11 @@ $(document).ready(function(){
 
 });
 
-function submitFormData(){
-var name = document.getElementById("name").value;
-var email = document.getElementById("email").value;
-var message = document.getElementById("message").value;
-if (name !== "" && email !== "" && message !== "");
-  alert("Hey " +   name + " " + "thank you for contacting us.Delani Studio has received your message");
-event.preventDefault();
+function submitFormData() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  if (name !== "" && email !== "" && message !== "");
+  alert("Hey " + name + " " + "thank you for contacting us.Delani Studio has received your message");
+  event.preventDefault();
 }
